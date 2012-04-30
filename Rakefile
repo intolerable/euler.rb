@@ -10,11 +10,10 @@ Rake::TestTask.new do |t|
 end
 
 
-task :default => ["test"]
+task :default => [:test]
 
 spec = Gem::Specification.new do |s|
 
-  # Change these as appropriate
   s.name              = "Euler.rb"
   s.version           = "1.0"
   s.summary           = "some neat methods which are useful for project euler"
