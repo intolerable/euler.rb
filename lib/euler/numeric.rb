@@ -53,7 +53,7 @@ class Numeric
   end
   
   def factorial
-    self.downto(1).reduce(:*) || 0
+    self.downto(1).reduce(:*) || 1
   end
   
   def triangle
